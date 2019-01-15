@@ -56,6 +56,7 @@ reBoundLayout.setOnBounceDistanceChangeListener(new OnBounceDistanceChangeListen
 ```
 >PS:**Kotlin**请使用 **ReBoundLayoutKt** 类
 ##### 效果二：
+##### DragZoomLayout
 **Step 1**
 ```
 <com.zzh12138.reboundlayout.drag.DragZoomLayout xmlns:android="http://schemas.android.com/apk/res/android"
