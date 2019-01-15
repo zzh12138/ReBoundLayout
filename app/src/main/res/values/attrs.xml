@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ReBoundLayout">
+        <attr name="reBoundOrientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="resistance" format="float" />
+        <attr name="reBoundDuration" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="DragZoomLayout">
+        <attr name="interceptOrientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="reSetDuration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ReBoundLayoutKt">
+        <attr name="reBoundOrientationKt" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="resistanceKt" format="float" />
+        <attr name="reBoundDurationKt" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="DragZoomLayoutKt">
+        <attr name="interceptOrientationKt" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="reSetDurationKt" format="integer" />
+    </declare-styleable>
+</resources>

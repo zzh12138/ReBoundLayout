@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zzh12138.reboundlayout.rebound.ReBoundLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reBoundLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:resistance="1"
+    app:reBoundOrientation="horizontal"
+    android:background="#80000000"
+    tools:context=".rebound.ReBoundActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/topTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:layout_marginTop="80dp"
+        android:text="继续下拉关闭，松手左右滑切换"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/leftTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:maxEms="1"
+        android:text="继续右滑关闭"
+        android:visibility="gone"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/right_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        android:maxEms="1"
+        android:text="继续左滑关闭"
+        android:textColor="#ffffff" />
+</com.zzh12138.reboundlayout.rebound.ReBoundLayout>
